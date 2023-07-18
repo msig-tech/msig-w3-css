@@ -278,4 +278,5 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-background-popup-x-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
 .msig-background-popup-close-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
 .msig-background-tech1{background-image: url("images/background/technology-pattern-png-3.png");background-repeat:no-repeat;background-position:center}
+.msig-background-transparent{background-color: transparent !important}
 .msig-bottom-copyright{font-size:11px;font-family: "Nanum Gothic", serif}

@@ -241,6 +241,8 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 
 
 /* adding some MSIG stuff */
+.msig-background{background-image: linear-gradient(to bottom right, #0D102C, #31204d)}
+.msig-transparent-background{background-color: transparent;}
 .msig-top-blur{position:fixed;list-style-type:none;backdrop-filter:blur(11px);padding-top:5px;padding-right:15px}
 .msig-left-align{text-align:left!important;padding-left:15px;padding-right:11px;}
 .msig-right-align{text-align:right!important;padding-right:15px;padding-left:11px;}

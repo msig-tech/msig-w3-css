@@ -275,7 +275,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-right-align{text-align:right!important;padding-right:15px;padding-left:11px;}
 .msig-justify{text-align:justify!important}
 .msig-center{text-align:center!important}
-.msig-margin-bottom{margin-bottom:32px}
+.msig-margin-bottom{margin-bottom:32px;}
 .msig-margin-side{margin-left:16px;margin-right:16px!important}
 .msig-margin-side-small{margin-right:3px!important;margin-left:3px!important}
 .msig-margin-end{margin-top:16!important;margin-bottom:16px!important}
@@ -283,9 +283,9 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-margin-end-xlarge{margin-top:48!important;margin-bottom:48!important}
 .msig-margin-up-down{margin-top:16px;margin-bottom:36px!important}
 .msig-margin-top-member-menu{margin-top:11px;}
-.msig-margin-down{margin-bottom:16px}
-.msig-padding{padding:32px}
-.msig-padding-bottom{padding-bottom:32px}
+.msig-margin-down{margin-bottom:16px;}
+.msig-padding{padding:32px;}
+.msig-padding-bottom{padding-bottom:32px;}
 .msig-padding-down{padding-bottom:16px;}
 .msig-padding-top{padding-top:16px;}
 .msig-padding-top-down{padding-top:16px;padding-bottom:16px;}

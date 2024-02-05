@@ -240,9 +240,9 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
 
-/* adding some MSIG stuff */
+/* MSIG STUFF */
 
-/* background stuff */
+/* BACKGROUND */
 .msig-background{background-image: linear-gradient(to bottom right, #0D102C, #31204d)}
 .msig-background-purple,.msig-hover-blue:hover{background-image: linear-gradient(to bottom right, #01193f, #6540A2)!important}
 .msig-background-popup-title{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
@@ -258,7 +258,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 /* end */
 .msig-top-blur{position:fixed;list-style-type:none;backdrop-filter:blur(11px);padding-top:5px;padding-right:15px}
 
-/* button stuff */
+/* BUTTON */
 .msig-background-popup-x-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
 .msig-background-popup-close-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
 .msig-button{background-color:transparent; border:none; color:inherit}
@@ -270,7 +270,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-button-member-side{background-color:inherit; color:inherit; border:none;text-decoration:none;}.msig-button-member-side:hover{background-color:#30204C;color:inherit;text-decoration:none;}
 .msig-button-member-side-child{background-color:inherit; color:inherit; border:none;text-decoration:none;}.msig-button-member-side-child:hover{background-color:#0D102C;color:inherit;text-decoration:none;}
 
-/* alignement stuff */
+/* ALIGN */
 .msig-left-align{text-align:left!important;padding-left:15px;padding-right:11px;}
 .msig-right-align{text-align:right!important;padding-right:15px;padding-left:11px;}
 .msig-justify{text-align:justify!important}
@@ -291,15 +291,15 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-padding-top-title{padding-top:211px;}
 .msig-padding-top-member-menu{padding-top:9px;}
 
-/* link stuff */
+/* LINK */
 .msig-url-clean{text-decoration:none;cursor:pointer}.msig-url-clean:hover{color:#38B6FF!important}
 .msig-url-gold{text-decoration:none;color:#F0CB4C!important}.msig-url-gold:hover{color:#BA924B!important}
 
-/* form stuff */
+/* FORM */
 .msig-input{padding:8px;display:block;border:1px solid #795548;width:100%;background-color: transparent;color:#c0c0c0; margin:0 auto}
 .msig-input-dropdown{padding:8px;display:block;border:1px solid #795548;width:100%;background-color: #0D102C;color:#c0c0c0; margin:0 auto}
 
-/* list stuff */
+/* LIST */
 .msig-ul-clean{list-style-type:none;text-decoration:none;}
 .msig-ul-clean li{padding:11px 11px}
 .msig-bottom-ul-clean{list-style-type:none}
@@ -311,7 +311,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-dropdown-hover:first-child,.msig-dropdown-click:hover{background-color:#30204C}  
 .msig-dropdown-hover:hover > .msig-dropdown-click:hover >{background-color:#30204C}
 
-/* table stuff */
+/* TABLE */
 .msig-table,.msig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.msig-table-all{border:1px solid #795548}
 .msig-table td,.msig-table th,.msig-table-all td,.msig-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .msig-table th:first-child,.msig-table td:first-child,.msig-table-all th:first-child,.msig-table-all td:first-child{padding-left:16px}
@@ -319,7 +319,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-bordered tr,.msig-table-all tr{border-bottom:1px solid #795548}.msig-striped tbody tr:nth-child(even){background-color:#052E92}
 .msig-hoverable tbody tr:hover,.msig-ul.msig-hoverable li:hover{background-color:#009688}.msig-centered tr th,.msig-centered tr td{text-align:center}
 
-/* section stuff */
+/* SECTION */
 .msig-border{border:1px solid #f0c024!important}
 .msig-border-bottom{box-shadow:0 5px 5px -5px #4AADD2,0 2px 10px -10px #052E92}
 .msig-border-left{border-left:1px solid #795548!important}
@@ -334,7 +334,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-sidebar{height:100%;width:200px;position:fixed!important;z-index:1;overflow:auto}
 .msig-hr{border:0;border-top:1px solid #f0c024;margin:20px auto;width:90%;box-shadow: 0px 2px 4px #aaa}
 
-/* font stuff */
+/* FONT */
 .msig-h1{font-size:36px}.msig-h2{font-size:30px}.msig-h3{font-size:24px}.msig-h4{font-size:20px}.msig-h5{font-size:18px}.msig-h6{font-size:16px}
 .msig-h1,.msig-h2,.msig-h3,.msig-h4,.msig-h5,.msig-h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}
 .msig-green,.msig-hover-green:hover{color:#0D102C!important;background-color:#4CAF50!important}

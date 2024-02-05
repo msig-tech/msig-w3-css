@@ -259,8 +259,6 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-top-blur{position:fixed;list-style-type:none;backdrop-filter:blur(11px);padding-top:5px;padding-right:15px}
 
 /* BUTTON */
-.msig-background-popup-x-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
-.msig-background-popup-close-button{background-image: linear-gradient(to bottom right, #01040d, #01193f)}
 .msig-button{background-color:transparent; border:none; color:inherit}
 .msig-button-blue{background-color:#4999d8;color:#0D102C}.msig-button-blue-hover:hover{background-color:#0086eb!important;color:#0D102C}
 .msig-button-gold{background-color:#f0c024;color:#0D102C}.msig-button-gold-hover:hover{background-color:#F0CB4C!important;color:#0D102C}
@@ -278,9 +276,9 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-margin-bottom{margin-bottom:32px;}
 .msig-margin-side{margin-left:16px;margin-right:16px!important}
 .msig-margin-side-small{margin-right:3px!important;margin-left:3px!important}
-.msig-margin-end{margin-top:16!important;margin-bottom:16px!important}
-.msig-margin-end-large{margin-top:32!important;margin-bottom:32!important}
-.msig-margin-end-xlarge{margin-top:48!important;margin-bottom:48!important}
+.msig-margin-end{margin-top:16px!important;margin-bottom:16px!important}
+.msig-margin-end-large{margin-top:32px!important;margin-bottom:32px!important}
+.msig-margin-end-xlarge{margin-top:48px!important;margin-bottom:48px!important}
 .msig-margin-up-down{margin-top:16px;margin-bottom:36px!important}
 .msig-margin-top-member-menu{margin-top:11px;}
 .msig-margin-down{margin-bottom:16px;}

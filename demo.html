@@ -9,26 +9,204 @@
     <title>MSIG Styles Guide</title>
 </head>
 <body>
+<div class="w3-section msig-center">
+    <h1>msig.css utilisation</h1>
+</div>
 
 <div class="w3-section msig-card msig-margin-side">
-    <div class="msig-padding">
-    <h2>Bouton Bleu</h2>
-    <a href="#"><button class="msig-button msig-button-blue msig-button-blue-hover">Bouton Bleu</button></a>
-    <p><strong>Description :</strong> Utilisez la balise <code>&lt;button&gt;</code> avec les classes <code>msig-button</code> et <code>msig-button-blue</code> pour créer un bouton bleu. L'effet de survol donnera une couleur différente.</p>
-
-    <h2>Bouton Or</h2>
-    <button class="msig-button msig-button-gold">Bouton Or</button>
-    <p><strong>Description :</strong> Utilisez la balise <code>&lt;button&gt;</code> avec les classes <code>msig-button</code> et <code>msig-button-gold</code> pour créer un bouton doré. L'effet de survol donnera une couleur différente.</p>
-
-    <h2>Bouton Vert</h2>
-    <button class="msig-button msig-button-green">Bouton Vert</button>
-    <p><strong>Description :</strong> Utilisez la balise <code>&lt;button&gt;</code> avec les classes <code>msig-button</code> et <code>msig-button-green</code> pour créer un bouton vert. L'effet de survol donnera une couleur différente.</p>
-
-    <h2>Bouton Transparent</h2>
-    <a href="#" class="msig-button-member-top">Bouton Transparent</a>
-    <p><strong>Description :</strong> Utilisez la balise <code>&lt;a&gt;</code> avec la classe <code>msig-button-member-top</code> pour créer un bouton avec un fond transparent et une couleur de texte par défaut. L'effet de survol ne change pas la couleur.</p>
+    <div class="msig-margin-side msig-padding-top-down">
+        <div class="w3-section msig-center">
+            <h2>how to call msig.css</h2>
+        </div>
+            <p>
+                You need to add this line on the header section of main/all html files :<br>
+                <code>&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/msig-tech/msig-w3-css/msig.css"&gt;</code>
+            </p>
     </div>
 </div>
 
+<div class="w3-section msig-card msig-margin-side">
+    <div class="msig-margin-side msig-padding-top-down">
+    
+        <h2 class="msig-center">Buttons</h2>
+        
+        <p>
+            <strong>Description :</strong>
+            <ul>
+                <li>a href : link</li>
+                <li>button class : create html button object with class</li>
+                <li>msig-button : style for basic button</li>
+                <li>msig-button-blue : add blue button color</li>
+                <li>msig-button-blue-hover : add blue mouse over button color</li>
+            </ul>
+            <strong>Actual Code :</strong> <code>&lt;a href="#"&gt;&lt;button class="msig-button msig-button-blue msig-button-blue-hover"&gt;Blue Button&lt;/button&gt;&lt;/a&gt;</code>
+            <br>
+            <strong>Result :</strong> <a href="#"><button class="msig-button msig-button-blue msig-button-blue-hover">Blue Button</button></a>
+        </p>
+
+        <hr class="msig-hr">
+
+        <p>
+            <strong>Description :</strong>
+            <ul>
+                <li>a href : link</li>
+                <li>button class : create html button object with class</li>
+                <li>msig-button : style for basic button</li>
+                <li>msig-button-gold : add gold button color</li>
+                <li>msig-button-gold-hover : add gold mouse over button color</li>
+            </ul>
+            <strong>Actual Code :</strong> <code>&lt;a href="#"&gt;&lt;button class="msig-button msig-button-gold msig-button-gold-hover"&gt;gold Button&lt;/button&gt;&lt;/a&gt;</code>
+            <br>
+            <strong>Result :</strong> <a href="#"><button class="msig-button msig-button-gold msig-button-gold-hover">Gold Button</button></a>
+        </p>
+
+        <hr class="msig-hr">
+
+        <p>
+            <strong>Description :</strong>
+            <ul>
+                <li>a href : link</li>
+                <li>button class : create html button object with class</li>
+                <li>msig-button : style for basic button</li>
+                <li>msig-button-green : add green button color</li>
+                <li>msig-button-green-hover : add green mouse over button color</li>
+            </ul>
+            <strong>Actual Code :</strong> <code>&lt;a href="#"&gt;&lt;button class="msig-button msig-button-green msig-button-green-hover"&gt;green Button&lt;/button&gt;&lt;/a&gt;</code>
+            <br>
+            <strong>Result :</strong> <a href="#"><button class="msig-button msig-button-green msig-button-green-hover">Green Button</button></a>
+        </p>
+
+        <hr class="msig-hr">
+
+        <p>
+            Also Available (will see more in detail on SECTION section) : 
+            <ul>
+                <li>Top Menu</li>
+                    <ul>
+                        <li>msig-button-member-top</li>
+                        <li>msig-button-member-top-hover</li>
+                        <li>msig-button-member-top-child</li>
+                        <li>msig-button-member-top-child-hover</li>
+                    </ul>
+                <li>Left Side Menu</li>
+                <ul>
+                    <li>msig-button-member-side</li>
+                    <li>msig-button-member-side-hover</li>
+                    <li>msig-button-member-side-child</li>
+                    <li>msig-button-member-side-child-hover</li>
+                </ul>
+            </ul>
+        </p>    
+    </div>
+</div>
+
+
+<div class="w3-section msig-card msig-margin-side">
+    <div class="msig-margin-side msig-padding-top-down">
+    
+        <h2 class="msig-center">Align, margin and padding</h2>
+
+        <div class="msig-left-align msig-card-blue msig-padding-top-down">
+            <h3 class="msig-center">Align, work with text and object</h3>
+            <p> 
+                (default)<br>
+                This text are at left.<br>
+                This text are at left.<br>
+            </p>
+            <p>
+                <b>Actual Code :</b><br>
+                <code>
+                    &lt;div class="msig-left-align"&gt;<br>
+                    &lt;p&gt;<br>
+                    This text are at left.&lt;br&gt;<br>
+                    This text are at left.&lt;br&gt;<br>
+                    &lt;/p&gt;
+                </code>
+            </p>
+
+            <div class="msig-right-align">
+                <p>
+                    This text are at right.<br>
+                    This text are at right.<br>
+                </p>
+                <p>
+                    <b>Actual Code :</b><br>
+                    <code>
+                        &lt;div class="msig-right-align"&gt;<br>
+                        &lt;p&gt;<br>
+                        This text are at right.&lt;br&gt;<br>
+                        This text are at right.&lt;br&gt;<br>
+                        &lt;/p&gt;
+                    </code>
+                </p>
+            </div>
+
+            <div class="msig-center">
+                <p>
+                    This text are centered.<br>
+                    This text are centered.<br>
+                </p>
+                <p>
+                    <b>Actual Code :</b><br>
+                    <code>
+                        &lt;div class="msig-right-align"&gt;<br>
+                        &lt;p&gt;<br>
+                        This text are centered.&lt;br&gt;<br>
+                        This text are centered.&lt;br&gt;<br>
+                        &lt;/p&gt;
+                    </code>
+                </p>
+            </div>           
+         </div>
+
+        <hr class="msig-hr">
+
+        <div class="msig-justify msig-card-blue msig-padding-top-down">
+            <h3 class="msig-center">Justify</h3>
+            <p class="msig-margin-side">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus lobortis aliquet diam, quis dapibus dolor dapibus efficitur. Fusce diam justo, pellentesque in lacus nec, gravida tincidunt sem. Donec rhoncus, nibh quis vehicula elementum, metus dui sagittis quam, at maximus risus risus ac felis. Donec auctor magna dui, eget vestibulum purus condimentum non. Etiam orci mauris, volutpat ac pulvinar at, consectetur in metus. Sed ac lobortis nisi, in rutrum ex. Donec quis lectus consectetur, commodo tortor id, bibendum dolor. Fusce in elit nisi. Phasellus in tincidunt nunc. 
+            </p>
+            <p class="msig-margin-side">
+                <b>Actual Code :</b><br>
+                <code>
+                &lt;p class="msig-justify"&gt;<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus lobortis aliquet diam, quis dapibus dolor dapibus efficitur. Fusce diam justo, pellentesque in lacus nec, gravida tincidunt sem. Donec rhoncus, nibh quis vehicula elementum, metus dui sagittis quam, at maximus risus risus ac felis. Donec auctor magna dui, eget vestibulum purus condimentum non. Etiam orci mauris, volutpat ac pulvinar at, consectetur in metus. Sed ac lobortis nisi, in rutrum ex. Donec quis lectus consectetur, commodo tortor id, bibendum dolor. Fusce in elit nisi. Phasellus in tincidunt nunc.<br>
+                &lt;/p&gt;
+                </code>
+            </p>
+        </div>
+
+        <hr class="msig-hr">
+
+        <div class="msig-card-blue">
+            <h3 class="msig-center msig-margin-end">Margin</h3>
+            <p class="msig-margin-side msig-margin-end">
+                Margin can be used with text and object. This is the space OUTSIDE the block
+            </p>
+            <p class="msig-margin-side msig-margin-end">
+                This is the actual margin option and description :
+                <ul>
+                    <li>msig-margin-bottom : Adding a 32 px margin at bottom</li>
+                    <li>msig-margin-side : Adding a 16 px margin at both side</li>
+                    <li>msig-margin-side-small : Adding a 3 px margin at both side</li>
+                    <li>msig-margin-end : Adding a 16 px margin at top and bottom</li>
+                    <li>msig-margin-end-large : Adding a 32 px margin at top and bottom</li>
+                    <li>msig-margin-end-xlarge : Adding a 48 px margin at top and bottom</li>
+                    <li>msig-margin-up-down : Adding a 16 px margin at the top and a 36 px margin at the bottom</li>
+                    <li>msig-margin-top-member-menu : Adding a 11 px margin at top</li>
+                </ul>
+            </p>
+        </div>
+
+        <hr class="msig-hr">
+
+        <div class="msig-margin-side msig-border">
+            <p>Ce paragraphe a des marges à gauche et à droite.</p>
+        </div>
+
+        <hr class="msig-hr">
+
+    </div>
+</div>
 </body>
 </html>

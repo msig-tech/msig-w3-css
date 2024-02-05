@@ -5,32 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/msig-tech/msig-w3-css/msig.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC">
     <title>MSIG Styles Guide</title>
 </head>
 <body>
 <div class="w3-section msig-center">
-    <h1>msig.css utilisation</h1>
+    <h1 id="quick-access-menu">msig.css utilisation</h1>
 </div>
 
 <div class="w3-section msig-card msig-margin-side">
+    <div class="msig-margin-side msig-padding-top-down">
+        <div class="w3-section msig-center">
+            <h2>Quick access menu</h2>
+        </div>
+        <ul>
+            <li><a href="#how-to-call-msig-css" class="msig-url-clean">How to call msig.css</a></li>
+            <li><a href="#button" class="msig-url-clean">Buttons</a></li>
+            <ul>
+                <li><a href="#blue-button" class="msig-url-clean">Blue Button</a></li>
+                <li><a href="#gold-button" class="msig-url-clean">Gold Button</a></li>
+                <li><a href="#green-button" class="msig-url-clean">Green Button</a></li>
+                <li><a href="#also-available-buttons" class="msig-url-clean">Also available Buttons</a></li>
+            </ul>
+            <li><a href="#align-margin-and-padding" class="msig-url-clean">Align, Margin and Padding</a></li>
+            <ul>
+                <li><a href="#align" class="msig-url-clean">Align, work with text and object</a></li>
+                <li><a href="#justify" class="msig-url-clean">Justify (text only)</a></li>
+                <li><a href="#margin" class="msig-url-clean">Margin</a></li>
+                <li><a href="#padding" class="msig-url-clean">Padding</a></li>
+
+            </ul>
+        </ul>
+    </div>
+</div>
+
+<div class="w3-section">
+    <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
+</div>
+
+<div id="how-to-call-msig-css" class="w3-section msig-card msig-margin-side">
     <div class="msig-margin-side msig-padding-top-down">
         <div class="w3-section msig-center">
             <h2>how to call msig.css</h2>
         </div>
             <p>
                 You need to add this line on the header section of main/all html files :<br>
-                <code>&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/msig-tech/msig-w3-css/msig.css"&gt;</code>
+                <code>&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/msig-tech/msig-w3-css/msig.css"&gt;<br>
+                &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"&gt;    
+                </code>
             </p>
     </div>
 </div>
 
-<div class="w3-section msig-card msig-margin-side">
+<div class="w3-section">
+    <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
+</div>
+
+<div id="button" class="w3-section msig-card msig-margin-side">
     <div class="msig-margin-side msig-padding-top-down">
     
         <h2 class="msig-center">Buttons</h2>
         
-        <p>
+        <p id="blue-button">
             <strong>Description :</strong>
             <ul>
                 <li>a href : link</li>
@@ -46,7 +82,7 @@
 
         <hr class="msig-hr">
 
-        <p>
+        <p id="gold-button">
             <strong>Description :</strong>
             <ul>
                 <li>a href : link</li>
@@ -62,7 +98,7 @@
 
         <hr class="msig-hr">
 
-        <p>
+        <p id="green-button">
             <strong>Description :</strong>
             <ul>
                 <li>a href : link</li>
@@ -78,7 +114,7 @@
 
         <hr class="msig-hr">
 
-        <p>
+        <p id="also-available-buttons">
             Also Available (will see more in detail on SECTION section) : 
             <ul>
                 <li>Top Menu</li>
@@ -100,31 +136,36 @@
     </div>
 </div>
 
+<div class="w3-section">
+    <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
+</div>
 
-<div class="w3-section msig-card msig-margin-side">
+<div id="align-margin-and-padding" class="w3-section msig-card msig-margin-side">
     <div class="msig-margin-side msig-padding-top-down">
     
         <h2 class="msig-center">Align, margin and padding</h2>
 
-        <div class="msig-left-align msig-card-blue msig-padding-top-down">
+        <div id="align" class="msig-card-blue msig-padding-top-down">
             <h3 class="msig-center">Align, work with text and object</h3>
-            <p> 
-                (default)<br>
-                This text are at left.<br>
-                This text are at left.<br>
-            </p>
-            <p>
-                <b>Actual Code :</b><br>
-                <code>
-                    &lt;div class="msig-left-align"&gt;<br>
-                    &lt;p&gt;<br>
-                    This text are at left.&lt;br&gt;<br>
-                    This text are at left.&lt;br&gt;<br>
-                    &lt;/p&gt;
-                </code>
-            </p>
+            <div id="left" class="msig-left-align">
+                <p> 
+                    (default)<br>
+                    This text are at left.<br>
+                    This text are at left.<br>
+                </p>
+                <p>
+                    <b>Actual Code :</b><br>
+                    <code>
+                        &lt;div class="msig-left-align"&gt;<br>
+                        &lt;p&gt;<br>
+                        This text are at left.&lt;br&gt;<br>
+                        This text are at left.&lt;br&gt;<br>
+                        &lt;/p&gt;
+                    </code>
+                </p>
+            </div>
 
-            <div class="msig-right-align">
+            <div id="right" class="msig-right-align">
                 <p>
                     This text are at right.<br>
                     This text are at right.<br>
@@ -141,7 +182,7 @@
                 </p>
             </div>
 
-            <div class="msig-center">
+            <div id="center" class="msig-center">
                 <p>
                     This text are centered.<br>
                     This text are centered.<br>
@@ -157,13 +198,13 @@
                     </code>
                 </p>
             </div>           
-         </div>
 
-        <hr class="msig-hr">
 
-        <div class="msig-justify msig-card-blue msig-padding-top-down">
-            <h3 class="msig-center">Justify</h3>
-            <p class="msig-margin-side">
+            <hr class="msig-hr">
+
+
+            <h3 id="justify" class="msig-center">Justify (text only)</h3>
+            <p class="msig-justify msig-margin-side">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus lobortis aliquet diam, quis dapibus dolor dapibus efficitur. Fusce diam justo, pellentesque in lacus nec, gravida tincidunt sem. Donec rhoncus, nibh quis vehicula elementum, metus dui sagittis quam, at maximus risus risus ac felis. Donec auctor magna dui, eget vestibulum purus condimentum non. Etiam orci mauris, volutpat ac pulvinar at, consectetur in metus. Sed ac lobortis nisi, in rutrum ex. Donec quis lectus consectetur, commodo tortor id, bibendum dolor. Fusce in elit nisi. Phasellus in tincidunt nunc. 
             </p>
             <p class="msig-margin-side">
@@ -176,14 +217,16 @@
             </p>
         </div>
 
-        <hr class="msig-hr">
+        <div class="w3-section">
+            <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
+        </div>
 
-        <div class="msig-card-blue">
-            <h3 class="msig-center msig-margin-end">Margin</h3>
-            <p class="msig-margin-side msig-margin-end">
-                Margin can be used with text and object. This is the space OUTSIDE the block
+        <div id="margin" class="msig-card-blue msig-padding-top-down">
+            <h3 class="msig-center">Margin</h3>
+            <p class="msig-margin-side">
+                Margin can be used with text and object. This is the space INSIDE the block
             </p>
-            <p class="msig-margin-side msig-margin-end">
+            <p class="msig-margin-side">
                 This is the actual margin option and description :
                 <ul>
                     <li>msig-margin-bottom : Adding a 32 px margin at bottom</li>
@@ -198,15 +241,36 @@
             </p>
         </div>
 
-        <hr class="msig-hr">
-
-        <div class="msig-margin-side msig-border">
-            <p>Ce paragraphe a des marges à gauche et à droite.</p>
+        <div class="w3-section">
+            <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
         </div>
 
-        <hr class="msig-hr">
+        <div id="padding" class="msig-card-blue msig-padding-top-down">
+            <h3 class="msig-center">Padding</h3>
+            <p class="msig-margin-side">
+                Padding can be used with text and object. This is the space OUTSIDE the block
+            </p>
+            <p class="msig-margin-side">
+                This is the actual padding option and description :
+                <ul>
+                    <li>msig-padding : Adding a 32 px padding all around</li>
+                    <li>msig-padding-bottom : Adding a 32 px padding at bottom</li>
+                    <li>msig-padding-down : Adding a 16 px padding at bottom</li>
+                    <li>msig-padding-top : Adding a 16 px padding at top</li>
+                    <li>msig-padding-top-down : Adding a 16 px padding at top and bottom</li>
+                    <li>msig-padding-top-title : Adding a 211 px padding at top</li>
+                    <li>msig-padding-top-member-menu : Adding a 9 px padding at the top</li>
+                </ul>
+            </p>
+        </div>
 
     </div>
+
 </div>
+
+<div class="w3-section">
+    <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
+</div>
+
 </body>
 </html>

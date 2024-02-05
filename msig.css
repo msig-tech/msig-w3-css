@@ -336,6 +336,8 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 /* FONT */
 .msig-h1{font-size:36px}.msig-h2{font-size:30px}.msig-h3{font-size:24px}.msig-h4{font-size:20px}.msig-h5{font-size:18px}.msig-h6{font-size:16px}
 .msig-h1,.msig-h2,.msig-h3,.msig-h4,.msig-h5,.msig-h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}
+/* need to add this line for the title font
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
 .msig-green,.msig-hover-green:hover{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-green:hover{color:#0D102C!important;background-color:#d2be0e!important}
 .msig-red,.msig-hover-red:hover{color:#fff!important;background-color:#f44336!important}
@@ -347,3 +349,5 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-continue{font-size:28px;color:#BA924B!important}
 .msig-select-white{padding:9px 0;width:100%;border:none;border-bottom:1px solid #fff}
 .msig-bottom-copyright{font-size:11px;font-family: "Nanum Gothic", serif}
+/* need to add this line for the font bottom copyright
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */

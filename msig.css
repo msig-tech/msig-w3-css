@@ -284,6 +284,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-margin-up-down{margin-top:16px;margin-bottom:36px!important}
 .msig-margin-top-member-menu{margin-top:11px;}
 .msig-margin-down{margin-bottom:16px}
+.msig-padding{padding:32px}
 .msig-padding-bottom{padding-bottom:32px}
 .msig-padding-down{padding-bottom:16px;}
 .msig-padding-top{padding-top:16px;}

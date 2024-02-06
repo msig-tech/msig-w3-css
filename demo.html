@@ -346,7 +346,7 @@
 
             <div class="w3-col w3-third">
                 <label for="dropdown">Dropdown:</label>
-                <select id="dropdown" class="msig-input-dropdown">
+                <select id="dropdown" class="msig-input-dropdown msig-dropdown-content">
                     <option value="option1">Option 1</option>
                     <option value="option2">Option 2</option>
                     <option value="option3">Option 3</option>
@@ -378,12 +378,71 @@
     </div>
 </div>
 
-
-
 <div class="w3-section">
     <h6 class="msig-center"><a href="#quick-access-menu" class="msig-bottom-copyright msig-url-clean">Back to Quick Access Menu</a></h6>
 </div>
 
+<div id="form" class="w3-section msig-card msig-margin-side">
+    <div class="w3-container msig-margin-side msig-padding-top-down">    
+        <h2 class="msig-center">List</h2>
+        
+        <h4>A standard list view</h4>
+        <ul>
+            <li>Item 1</li>
+            <ul>
+                <li>Child Item 1</li>
+                <li>Child Item 2</li>
+            </ul>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>
+            <b>Actual Code :</b>
+        </p>
+        <p class="msig-code">
+            <code>
+                &lt;ul&gt;<br>
+                    &lt;li&gt;Item 1&lt;/li&gt;<br>
+                    &lt;ul&gt;<br>
+                        &lt;li&gt;Child Item 1&lt;/li&gt;<br>
+                        &lt;li&gt;Child Item 2&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                    &lt;li&gt;Item 2&lt;/li&gt;<br>
+                    &lt;li&gt;Item 3&lt;/li&gt;<br>
+                &lt;/ul&gt;
+            </code>
+        </p>
+
+        <hr class="msig-hr">
+    
+        <h4>A ul-clean list view</h4>
+        <ul class="msig-ul-clean">
+            <li>Item 1</li>
+            <ul class="msig-ul-clean">
+                <li>Child Item 1</li>
+                <li>Child Item 2</li>
+            </ul>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>
+            <b>Actual Code :</b>
+        </p>
+        <p class="msig-code">
+            <code>
+                &lt;ul class="msig-ul-clean"&gt;<br>
+                    &lt;li&gt;Item 1&lt;/li&gt;<br>
+                    &lt;ul class="msig-ul-clean"&gt;<br>
+                        &lt;li&gt;Child Item 1&lt;/li&gt;<br>
+                        &lt;li&gt;Child Item 2&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                    &lt;li&gt;Item 2&lt;/li&gt;<br>
+                    &lt;li&gt;Item 3&lt;/li&gt;<br>
+                &lt;/ul&gt;
+            </code>
+        </p>
+    </div>
+</div>
 
 </body>
 </html>

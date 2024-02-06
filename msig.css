@@ -307,16 +307,19 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-dropdown-click,.msig-dropdown-hover {position: relative;display: inline-block;cursor: pointer}
 .msig-dropdown-click:hover .msig-dropdown-content {display: block;position: fixed;min-width: 160px;margin: 10;padding: 0px;overflow: visible !important}
 /* .msig-dropdown-content{cursor:auto;background-color:#30204C;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1;} */
-.msig-dropdown-hover:first-child,.msig-dropdown-click:hover{background-color:#30204C}  
-.msig-dropdown-hover:hover,.msig-dropdown-click:hover{background-color:#30204C}
+.msig-dropdown-hover:first-child,.msig-dropdown-click:hover, .msig-dropdown-hover:hover{background-color:#30204C}  
 
 /* TABLE */
-.msig-table,.msig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.msig-table-all{border:1px solid #795548}
+.msig-table,.msig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}
+.msig-table-all{border:1px solid #795548}
 .msig-table td,.msig-table th,.msig-table-all td,.msig-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .msig-table th:first-child,.msig-table td:first-child,.msig-table-all th:first-child,.msig-table-all td:first-child{padding-left:16px}
-.msig-table-all tr:nth-child(odd){background-color:#000}.msig-table-all tr:nth-child(even){background-color:#01040d}
-.msig-bordered tr,.msig-table-all tr{border-bottom:1px solid #795548}.msig-striped tbody tr:nth-child(even){background-color:#052E92}
-.msig-hoverable tbody tr:hover,.msig-ul.msig-hoverable li:hover{background-color:#009688}.msig-centered tr th,.msig-centered tr td{text-align:center}
+.msig-table-all tr:nth-child(odd){background-color:#000}
+.msig-table-all tr:nth-child(even){background-color:#01040d}
+.msig-bordered tr,.msig-table-all tr{border-bottom:1px solid #795548}
+.msig-striped tbody tr:nth-child(even){background-color:#052E92}
+.msig-hoverable tbody tr:hover,.msig-ul, .msig-hoverable li:hover{background-color:#009688}
+.msig-centered tr th,.msig-centered tr td{text-align:center}
 
 /* SECTION */
 .msig-border{border:1px solid #f0c024!important}

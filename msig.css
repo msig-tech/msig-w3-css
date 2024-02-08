@@ -314,6 +314,12 @@ ul.msig-topHeader li a {display: block; text-align: center; text-decoration: non
 ul.msig-topHeader li.right {float: right; padding-right: 5px;}
 ul.msig-topHeader li.langage {float: right; margin: auto; padding: 20px 20px;}
 @media screen and (max-width: 300px) {ul.msig-topHeader li.right, ul.msig-topHeader li {float: none;}}
+ul.msig-darkMenu {text-align: center; list-style-type: none; overflow: hidden; font-family: "Suez One", serif; font-size: 1rem;}
+ul.msig-darkMenu li {display: inline-block; float: left; width: 25%;}
+ul.msig-darkMenu li a {display: list-item; color: #CCCABD; text-align: center; padding: 0; text-decoration: none;}
+ul.msig-darkMenu li a:hover:not(.active) { background-color: #121638;}
+ul.msig-darkMenu li a.active {background-color: #38B6FF;}
+@media screen and (max-width: 300px) {ul.darkMenu li.right, ul.darkMenu li {float: none;}}
 
 /* TABLE */
 .msig-table,.msig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}

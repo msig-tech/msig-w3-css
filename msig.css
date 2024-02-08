@@ -24,7 +24,11 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
+
+/* temporary off 
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5;color:#CCCABD;}html{overflow-x:hidden}main{padding-top:300px}
+*/
+html,body {margin: 150px 1em 1em 1em; background-image: linear-gradient(to bottom right, #0D102C, #31204d); font-family: "Old Standard TT", serif; color: #CCCABD; font-size: calc(1em + 1vw);}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:serif}.w3-sans-serif{font-family:sans-serif}.w3-cursive{font-family:cursive}.w3-monospace{font-family:monospace}
 h1,h2,h3,h4,h5,h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}.w3-wide{letter-spacing:4px}
@@ -267,6 +271,14 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-button-member-top-child{background-color:inherit; color:inherit; border:none;text-decoration:none;}.msig-button-member-top-child:hover{background-color:#0D102C;color:inherit;text-decoration:none;}
 .msig-button-member-side{background-color:inherit; color:inherit; border:none;text-decoration:none;}.msig-button-member-side:hover{background-color:#30204C;color:inherit;text-decoration:none;}
 .msig-button-member-side-child{background-color:inherit; color:inherit; border:none;text-decoration:none;}.msig-button-member-side-child:hover{background-color:#0D102C;color:inherit;text-decoration:none;}
+/* NEW */
+.msig-button-2{background-color: #f0c024; border: 2px solid #9e65fa; border-radius: 11px;
+color: #0D102C; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.1rem; margin: 2px 2px; transition-duration: 0.4s; cursor: pointer; margin-top: 20px;}
+.msig-button-login {color: #0D102C;}
+.msig-button-login:hover {background-color: #F0CB4C;}
+.msig-button-register {opacity: 0.6; cursor: not-allowed;}
+.msig-button-register:hover {background-color: #F0CB4C; color: #121638;}
+.msig-transaction-button {background-color: #F0CB4C;}
 
 /* ALIGN */
 .msig-left-align{text-align:left!important;padding-left:15px;padding-right:11px;}
@@ -308,17 +320,19 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-dropdown-click:hover .msig-dropdown-content {display: block;position: fixed;min-width: 160px;margin: 10;padding: 0px;overflow: visible !important}
 /* .msig-dropdown-content{cursor:auto;background-color:#30204C;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1;} */
 .msig-dropdown-hover:first-child,.msig-dropdown-click:hover, .msig-dropdown-hover:hover{background-color:#30204C}
-ul.msig-topHeader {position: fixed; top: 0; width: 98%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; backdrop-filter: blur(11px); font-family: "IM Fell English SC"; font-weight: bold;}
-ul.msig-topHeader li{float: left;}
-ul.msig-topHeader li a {display: block; text-align: center; text-decoration: none;}
-ul.msig-topHeader li.right {float: right; padding-right: 5px;}
-ul.msig-topHeader li.langage {float: right; margin: auto; padding: 20px 20px;}
-@media screen and (max-width: 300px) {ul.msig-topHeader li.right, ul.msig-topHeader li {float: none;}}
-ul.msig-darkMenu {text-align: center; list-style-type: none; overflow: hidden; font-family: "Suez One", serif; font-size: 1rem;}
-ul.msig-darkMenu li {display: inline-block; float: left; width: 25%;}
-ul.msig-darkMenu li a {display: list-item; color: #CCCABD; text-align: center; padding: 0; text-decoration: none;}
-ul.msig-darkMenu li a:hover:not(.active) { background-color: #121638;}
-ul.msig-darkMenu li a.active {background-color: #38B6FF;}
+ul.msig-top-header {position: fixed; top: 0; width: 98%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; backdrop-filter: blur(11px); font-family: "IM Fell English SC"; font-weight: bold;}
+
+/* NEW */
+ul.msig-top-header li{float: left;}
+ul.msig-top-header li a {display: block; text-align: center; text-decoration: none;}
+ul.msig-top-header li.right {float: right; padding-right: 5px;}
+ul.msig-top-header li.langage {float: right; margin: auto; padding: 20px 20px;}
+@media screen and (max-width: 300px) {ul.msig-top-header li.right, ul.msig-top-header li {float: none;}}
+ul.msig-dark-menu {text-align: center; list-style-type: none; overflow: hidden; font-family: "Suez One", serif; font-size: 1rem;}
+ul.msig-dark-menu li {display: inline-block; float: left; width: 25%;}
+ul.msig-dark-menu li a {display: list-item; color: #CCCABD; text-align: center; padding: 0; text-decoration: none;}
+ul.msig-dark-menu li a:hover:not(.active) { background-color: #121638;}
+ul.msig-dark-menu li a.active {background-color: #38B6FF;}
 @media screen and (max-width: 300px) {ul.darkMenu li.right, ul.darkMenu li {float: none;}}
 
 /* TABLE */
@@ -349,13 +363,20 @@ ul.msig-darkMenu li a.active {background-color: #38B6FF;}
 .msig-hr{border:0;border-top:1px solid #f0c024;margin:20px auto;width:90%;box-shadow: 0px 2px 4px #aaa}
 
 /* FONT */
-.msig-h1{font-size:36px}.msig-h2{font-size:30px}.msig-h3{font-size:24px}.msig-h4{font-size:20px}.msig-h5{font-size:18px}.msig-h6{font-size:16px}
+.msig-h1{font-size:2.1rem}.msig-h2{font-size:1.9rem}.msig-h3{font-size:1.7rem}.msig-h4{font-size:1.5rem}.msig-h5{font-size:1.3rem}.msig-h6{font-size:1.1rem}
 .msig-h1,.msig-h2,.msig-h3,.msig-h4,.msig-h5,.msig-h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}
+
+/* NEW */
+.msig-h11{font-size:36px}.msig-h22{font-size:30px}.msig-h33{font-size:24px}.msig-h44{font-size:20px}.msig-h55{font-size:18px}.msig-h66{font-size:16px}
+.msig-h11,.msig-h22,.msig-h33,.msig-h44,.msig-h55,.msig-h66{font-family:"Nanum Gothic",serif;text-transform:capitalize;text-shadow: 3px 3px 5px #0D102C, 0 0 11px #CCCABD}
+
 /* need to add this line for the title font
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
-.msig-bleuMarinBase {color: #121638;}
-.msig-bleuClairContraste {color: #38B6FF;}
-.msig-mauve {color: #6540A2;}
+/* NEW */
+.msig-marine{color: #121638;}
+.msig-light-blue{color: #38B6FF;}
+.msig-purple{color: #6540A2;}
+
 .msig-green,.msig-hover-green:hover{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-green:hover{color:#0D102C!important;background-color:#d2be0e!important}
 .msig-red,.msig-hover-red:hover{color:#fff!important;background-color:#f44336!important}

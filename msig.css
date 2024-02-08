@@ -307,7 +307,13 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-dropdown-click,.msig-dropdown-hover {position: relative;display: inline-block;cursor: pointer}
 .msig-dropdown-click:hover .msig-dropdown-content {display: block;position: fixed;min-width: 160px;margin: 10;padding: 0px;overflow: visible !important}
 /* .msig-dropdown-content{cursor:auto;background-color:#30204C;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1;} */
-.msig-dropdown-hover:first-child,.msig-dropdown-click:hover, .msig-dropdown-hover:hover{background-color:#30204C}  
+.msig-dropdown-hover:first-child,.msig-dropdown-click:hover, .msig-dropdown-hover:hover{background-color:#30204C}
+ul.msig-topHeader {position: fixed; top: 0; width: 98%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; backdrop-filter: blur(11px); font-family: "IM Fell English SC"; font-weight: bold;}
+ul.msig-topHeader li{float: left;}
+ul.msig-topHeader li a {display: block; text-align: center; text-decoration: none;}
+ul.msig-topHeader li.right {float: right; padding-right: 5px;}
+ul.msig-topHeader li.langage {float: right; margin: auto; padding: 20px 20px;}
+@media screen and (max-width: 300px) {ul.msig-topHeader li.right, ul.msig-topHeader li {float: none;}}
 
 /* TABLE */
 .msig-table,.msig-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}

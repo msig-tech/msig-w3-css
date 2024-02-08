@@ -353,6 +353,9 @@ ul.msig-darkMenu li a.active {background-color: #38B6FF;}
 .msig-h1,.msig-h2,.msig-h3,.msig-h4,.msig-h5,.msig-h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}
 /* need to add this line for the title font
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
+.msig-bleuMarinBase {color: #121638;}
+.msig-bleuClairContraste {color: #38B6FF;}
+.msig-mauve {color: #6540A2;}
 .msig-green,.msig-hover-green:hover{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-green:hover{color:#0D102C!important;background-color:#d2be0e!important}
 .msig-red,.msig-hover-red:hover{color:#fff!important;background-color:#f44336!important}

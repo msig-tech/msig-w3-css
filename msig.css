@@ -351,7 +351,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-active{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-continue{font-size:28px;color:#BA924B!important}
 .msig-select-white{padding:9px 0;width:100%;border:none;border-bottom:1px solid #fff}
-.msig-bottom-copyright{font-size:11px;font-family: "Nanum Gothic", serif}
+.msig-bottom-copyright{font-size:0.8rem; text-align: center;font-family: "Nanum Gothic", serif}
 /* need to add this line for the font bottom copyright
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
 .msig-code,.msig-codespan{font-family:Consolas,"courier new";font-size:16px}

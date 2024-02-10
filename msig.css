@@ -28,7 +28,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 /* temporary off 
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5;color:#CCCABD;}html{overflow-x:hidden}main{padding-top:300px}
 */
-html,body {margin: 150px 1em 1em 1em; background-image: linear-gradient(to bottom right, #0D102C, #31204d); font-family: "Old Standard TT", serif; color: #CCCABD; font-size: calc(1em + 1vw);}
+html,body {margin: 150px 1em 1em 1em; background-image: linear-gradient(to bottom right, #0D102C, #31204d); font-family: "Old Standard TT", serif; color: #CCCABD; font-size: 1rem;}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:serif}.w3-sans-serif{font-family:sans-serif}.w3-cursive{font-family:cursive}.w3-monospace{font-family:monospace}
 h1,h2,h3,h4,h5,h6{font-family:"Nanum Gothic",serif;font-weight:400;margin:10px 0;text-transform:capitalize;text-shadow: 4px 4px 6px #0D102C}.w3-wide{letter-spacing:4px}

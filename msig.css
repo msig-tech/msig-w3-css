@@ -375,6 +375,9 @@ ul.msig-dark-menu li a.active {background-color: #38B6FF;}
 .msig-marine{color: #121638;}
 .msig-light-blue{color: #38B6FF;}
 .msig-purple{color: #6540A2;}
+/* circle can be use with <span class="msig-circle-green"> */
+.msig-circle-green {display: inline-block; width: 0.5rem; height: 0.5rem; background-color: green; border-radius: 50%; box-shadow: 4px 4px 6px #0D102C}
+.msig-circle-red {display: inline-block; width: 0.5rem; height: 0.5rem; background-color: red; border-radius: 50%; box-shadow: 4px 4px 6px #0D102C}
 
 .msig-green,.msig-hover-green:hover{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-green:hover{color:#0D102C!important;background-color:#d2be0e!important}

@@ -372,9 +372,10 @@ ul.msig-dark-menu li a.active {background-color: #38B6FF;}
 /* need to add this line for the title font
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
 /* NEW */
-.msig-marine{color: #121638;}
-.msig-light-blue{color: #38B6FF;}
-.msig-purple{color: #6540A2;}
+.msig-text-default{color:#CCCABD!important}
+.msig-text-marine{color: #121638!important;}
+.msig-text-light-blue{color: #38B6FF!important;}
+.msig-text-purple{color: #6540A2!important;}
 /* circle can be use with <span class="msig-circle-green"> */
 .msig-circle-green {display: inline-block; width: 0.5rem; height: 0.5rem; background-color: green; border-radius: 50%; box-shadow: 4px 4px 6px #0D102C}
 .msig-circle-red {display: inline-block; width: 0.5rem; height: 0.5rem; background-color: red; border-radius: 50%; box-shadow: 4px 4px 6px #0D102C}

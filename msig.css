@@ -384,8 +384,8 @@ ul.msig-dark-menu li a.active {background-color: #38B6FF;}
 .msig-red,.msig-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .msig-gold,.msig-hover-gold:hover{color:#fff!important;background-color:#9D6C28!important}
 .msig-font-black{color:#000!important}
-.msig-transparent{background-color: transparent!important; color:#CCCABD}
-.msig-transparent:hover{background-color: #009688!important}
+.msig-transparent{background-color: transparent!important; color:#CCCABD!important}
+.msig-transparent:hover{background-color: #009688!important; color:#CCCABD!important}
 .msig-active{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-continue{font-size:28px;color:#BA924B!important}
 .msig-select-white{padding:9px 0;width:100%;border:none;border-bottom:1px solid #fff}

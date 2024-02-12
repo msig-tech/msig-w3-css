@@ -303,6 +303,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 
 /* LINK */
 .msig-url-clean{text-decoration:none;cursor:pointer}.msig-url-clean:hover{color:#38B6FF!important}
+.msig-url-no-underline{text-decoration:none;}
 .msig-url-gold{text-decoration:none;color:#F0CB4C!important}
 .msig-url-gold:hover{color:#BA924B!important}
 .msig-link-disable{opacity: 0.6; cursor: not-allowed;}

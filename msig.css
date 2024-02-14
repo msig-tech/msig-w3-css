@@ -300,6 +300,8 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-padding-top-down{padding-top:16px;padding-bottom:16px;}
 .msig-padding-top-title{padding-top:211px;}
 .msig-padding-top-member-menu{padding-top:9px;}
+/* NEW */
+.msig-icon-middle{vertical-align: middle;}
 
 /* LINK */
 .msig-url-clean{text-decoration:none;cursor:pointer}.msig-url-clean:hover{color:#38B6FF!important}

@@ -261,6 +261,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-transparent-background{background-color: transparent;}
 /* end */
 .msig-top-blur{position:fixed;list-style-type:none;backdrop-filter:blur(11px);padding-top:5px;padding-right:15px}
+.msig-header{font-family: Suez One, serif; font: size 1rem; backdrop-filter: blur(11px); position: fixed; width: 100%; box-shadow:0 5px 25px -5px #01040d;}
 
 /* BUTTON */
 .msig-button{background-color:transparent; border:none; color:inherit}
@@ -396,7 +397,7 @@ ul.msig-dark-menu li a.active {background-color: #38B6FF;}
 .msig-active{color:#0D102C!important;background-color:#4CAF50!important}
 .msig-continue{font-size:28px;color:#BA924B!important}
 .msig-select-white{padding:9px 0;width:100%;border:none;border-bottom:1px solid #fff}
-.msig-bottom-copyright{font-size:0.8rem; text-align: center;font-family: "Nanum Gothic", serif}
+.msig-bottom-copyright{font-size:0.8rem; text-align: center;font-family: "Nanum Gothic", serif; box-shadow:0 -5px 25px -5px #01040d;}
 /* need to add this line for the font bottom copyright
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic|Old Standard TT|Suez One|IM Fell English SC"> */
 .msig-code,.msig-codespan{font-family:Consolas,"courier new";font-size:16px}

@@ -263,6 +263,13 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-top-blur{position:fixed;list-style-type:none;backdrop-filter:blur(11px);padding-top:5px;padding-right:15px}
 .msig-header{font-family: Suez One, serif; font: size 1rem; backdrop-filter: blur(11px); position: fixed; width: 100%; box-shadow:0 5px 25px -5px #01040d;}
 
+/* MENU */
+/* NEW */
+.msig-dropdown-menu{position:relative;display:inline-block;cursor:pointer;width:100%;min-width:100%;text-align:left;padding:8px 16px}
+.msig-dropdown-menu:hover .msig-dropdown-content{display:block;}
+.msig-dropdown-content{cursor:auto;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+
+
 /* BUTTON */
 .msig-button{background-color:transparent; border:none; color:inherit}
 .msig-button-blue{background-color:#4999d8;color:#0D102C}.msig-button-blue-hover:hover{background-color:#0086eb!important;color:#0D102C}
@@ -279,6 +286,8 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-button-register {opacity: 0.6; cursor: not-allowed;}
 .msig-button-register:hover {background-color: #F0CB4C; color: #121638;}
 .msig-transaction-button {background-color: #F0CB4C;}
+.msig-button-user{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;backdrop-filter:blur(11px)}
+.msig-button-user:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 
 /* ALIGN */
 .msig-left-align{text-align:left!important;padding-left:15px;padding-right:11px;}

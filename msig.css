@@ -301,6 +301,7 @@ html,body{height:100%;margin:0;background-image: linear-gradient(to bottom right
 .msig-padding-top-down{padding-top:16px;padding-bottom:16px;}
 .msig-padding-top-title{padding-top:211px;}
 .msig-padding-top-member-menu{padding-top:9px;}
+.msig-card-center{margin: 0 auto;}
 /* NEW */
 .msig-icon-middle{vertical-align: middle;}
 
